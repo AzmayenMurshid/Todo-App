@@ -26,7 +26,7 @@
 
     export let todos: Todo[];
 
-    const title = "Todo"; // Variable
+    const title = "Secrets"; // Variable
 
     const processNewTodoResult = async (res: Response, form: HTMLFormElement) => {
         const newTodo = await res.json();
